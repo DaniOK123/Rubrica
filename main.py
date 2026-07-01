@@ -24,5 +24,15 @@ def rubrica_nomi():
     file_nomi.close()
 
 
+def rubrica_telefono():
+
+    print("Ora è il momento di salvare il tuo numero di telefono!\n---------------")
+    time.sleep(2)
+
+    telefono = int(input)
+
+
+
 menu()
 rubrica_nomi()
+rubrica_telefono()
